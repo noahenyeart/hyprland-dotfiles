@@ -1,0 +1,54 @@
+* {
+	background-image: none;
+	box-shadow: none;
+}
+
+window {
+	/* background-color: rgba(30, 30, 46, 0.70); */
+	background-color: rgb(30, 30, 46);
+}
+
+button {
+	margin: 5 5;
+	border-radius: 12.5;
+	border-color: #f5e0dc;
+	text-decoration-color: #cdd6f4;
+	color: #cdd6f4;
+	background-color: #181825;
+	border-style: solid;
+	border-width: 3px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 25%;
+}
+
+button:focus, button:active, button:hover {
+	/* 20% Overlay 2, 80% mantle */
+	background-color: rgb(48, 50, 66);
+	outline-style: none;
+}
+
+
+#lock {
+    background-image: url("/home/noahenyeart/.config/wlogout/icons/rosewater/lock.svg");
+}
+
+#logout {
+    background-image: url("/home/noahenyeart/.config/wlogout/icons/rosewater/logout.svg");
+}
+
+#suspend {
+    background-image: url("/home/noahenyeart/.config/wlogout/icons/rosewater/suspend.svg");
+}
+
+#hibernate {
+    background-image: url("/home/noahenyeart/.config/wlogout/icons/rosewater/hibernate.svg");
+}
+
+#shutdown {
+    background-image: url("/home/noahenyeart/.config/wlogout/icons/rosewater/shutdown.svg");
+}
+
+#reboot {
+    background-image: url("/home/noahenyeart/.config/wlogout/icons/rosewater/reboot.svg");
+}

@@ -1,0 +1,164 @@
+{
+  // Workspaces
+  "hyprland/workspaces": {
+    "persistent-workspaces": {
+      "*": [ 1, 2, 3 ]
+    }
+  },
+  
+  
+  // Settings
+  "custom/settings": {
+    "format": "",
+    "on-click": "nautilus ~/.config/",
+    "tooltip-format": "Open Config Folder"
+  },
+
+
+  // System Tray
+  "tray": {
+    "icon-size": 21,
+    "spacing": 10
+  },
+
+
+  // Clock
+  "clock": {
+    "format": "{:%I:%M - %A, %Om/%Od}",
+    "tooltip": false,
+    "on-click": "~/.config/hypr/scripts/calendar.sh",
+  },
+
+
+  // CPU
+  "cpu": {
+    "format": "   {usage}%",
+    "on-click": "kitty --class=Status btop"
+  },
+  
+  
+  // Temperature
+  "temperature": {
+        // "thermal-zone": 10,
+        "hwmon-path": "/etc/sensors.d/cpu_temp",
+        "format": " {temperatureC}°C",
+        "tooltip": false,
+        "on-click": "kitty --class=Status btop"
+  },
+
+
+  // Memory
+  "memory": {
+    "format": "   {}%",
+    "on-click": "kitty --class=Status btop"
+  },
+
+
+  // Hardware Group
+  "group/hardware": {
+    "orientation": "inherit",
+    // "drawer": {
+      // "transition-duration": 300,
+      // "children-class": "not-memory",
+      // "transition-left-to-right": false
+    // },
+    "modules": ["cpu", "temperature", "memory"],
+  },
+
+
+  // Network
+  "network": {
+    "format": "{ifname}",
+    "format-wifi": "",
+    "format-ethernet": "",
+    "format-disconnected": "󱚵",
+    "tooltip-format-wifi": "   {essid}\nIP: {ipaddr}\nStrength: {signalStrength}%\nFreq: {frequency}MHz\nUp: {bandwidthUpBits} Down: {bandwidthDownBits}",
+    "tooltip-format-ethernet": "\nIP: {ipaddr}\n up: {bandwidthUpBits} down: {bandwidthDownBits}",
+    "tooltip-format-disconnected": "Disconnected",
+    "on-click": "kitty --class=Gazelle gazelle",
+  },
+
+
+  // Battery
+  "battery": {
+    "states": {
+      "good": 100,
+      "ok": 40,
+      "warning": 20,
+      // "critical": 15
+    },
+    "format": "{icon}  {capacity}%",
+    "format-charging": "   {capacity}%",
+    "format-plugged": "  {capacity}%",
+    "format-alt": "{icon}  {time}",
+    // "format-good": "", // An empty format will hide the module
+    // "format-full": "",
+    "format-icons": [" ", " ", " ", " ", " "]
+  },
+
+
+  // Pulseaudio
+  "pulseaudio": {
+    // "scroll-step": 1, // %, can be a float
+    "format": "{format_source} {icon}",
+    // "format-bluetooth": "{format_source}  {icon}",
+    // "format-bluetooth-muted": "{format_source}  ",
+    "format-muted": "{format_source}  ",
+    "format-source": "󰍬",
+    "format-source-muted": "󰍭",
+    "format-icons": {
+      "headphone": " ",
+      // "hands-free": "",
+      "headset": " ",
+      "phone": " ",
+      "portable": " ",
+      "car": " ",
+      "default": [" ", " ", " "]
+    },
+    "on-click": "pavucontrol"
+  },
+
+
+  // Bluetooth
+  "bluetooth": {
+    "format": "󰂯",
+    "format-disabled": "󰂲",
+    "format-off": "󰂲",
+    "format-connected": "󰂱",
+    "interval": 30,
+    "on-click": "kitty --class=bluetui bluetui",
+    // "on-click": "blueman-manager",
+    "format-no-controller": ""
+  },
+  
+  
+  // Power
+  "custom/power": {
+        "format": "󰐥",
+        "tooltip": false,
+        "on-click": "wlogout"
+  },
+
+
+  // Idle Inhibitor
+  "idle_inhibitor": {
+	"format": "",
+	"timeout": 180,
+	"tooltip-format-activated": "Caffeinated",
+	"tooltip-format-deactivated": "Decaffeinated"
+},
+
+
+  // Status Group
+  "group/status": {
+    "orientation": "inherit",
+    "modules": [
+      "idle_inhibitor",
+      "bluetooth",
+      "network",
+      "pulseaudio",
+      "battery",
+      "custom/power",
+    ]
+  },
+}
