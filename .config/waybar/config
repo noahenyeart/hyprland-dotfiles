@@ -1,32 +1,32 @@
 {
-    // General Settings
-    // "layer": "top",
-    // "margin-top": 10,
-    // "margin-bottom": 0,
-    // "margin-left": 10,
-    // "margin-right": 10,    
-    "spacing": 0,
+	// General Settings
+	// "layer": "top",
+	// "margin-top": 10,
+	// "margin-bottom": 0,
+	// "margin-left": 10,
+	// "margin-right": 10,
+	"spacing": 0,
 
-    // Load Modules
-    "include": [
-        "~/.config/waybar/modules.json",
-    ],
+	// Load Modules
+	"include": [
+		"~/.config/waybar/modules.json",
+	],
 
-    // Modules Left
-    "modules-left": [
-        "hyprland/workspaces",
-        "group/hardware",
-    ],
+	// Modules Left
+	"modules-left": [
+		"hyprland/workspaces",
+		"group/hardware",
+	],
 
-    // Modules Center
-    "modules-center": [
-        "clock"
-    ],
+	// Modules Center
+	"modules-center": [
+		"clock"
+	],
 
-    // Modules Right    
-    "modules-right": [
-        "tray",        
-        // "custom/settings",
-        "group/status",
-    ]
+	// Modules Right
+	"modules-right": [
+		"tray",
+		// "custom/settings",
+		"group/status",
+	]
 }

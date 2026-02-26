@@ -2,125 +2,125 @@
 
 
 * {
-  font-family: "Fira Sans Semibold";
-  font-size: 15px;
+	font-family: "Fira Sans Semibold";
+	font-size: 15px;
 }
 
 
 #waybar {
-  background: transparent;
+	background: transparent;
 }
 
 
 tooltip {
-  color: @text;
-  background-color: @base;
-  border:2px solid @rosewater;
+	color: @text;
+	background-color: @base;
+	border:2px solid @rosewater;
 }
 
 
 #workspaces {
-  border-radius: 7px 7px;
-  background-color: @base;
-  border:3px solid @rosewater;
-  margin: 10px 10px;
-  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.4);
+	border-radius: 7px 7px;
+	background-color: @base;
+	border:3px solid @rosewater;
+	margin: 10px 10px;
+	box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.4);
 }
 #workspaces button {
-  color: @text;
-  border-radius: 7px 7px;
-  padding: 0px 10px;
-  transition: all 0.35s ease-in-out;
+	color: @text;
+	border-radius: 7px 7px;
+	padding: 0px 10px;
+	transition: all 0.35s ease-in-out;
 }
 #workspaces button.active {
-  background-color: @surface1;
-  border-radius: 3px;
-  transition: all 0.35s ease-in-out;
+	background-color: @surface1;
+	border-radius: 3px;
+	transition: all 0.35s ease-in-out;
 }
 #workspaces button:hover {
 }
 
 
 #hardware {
-  margin: 10px 10px 10px 0px;
-  color: @text;
+	margin: 10px 10px 10px 0px;
+	color: @text;
 }
 #cpu {
-  margin-right: 13px;
+	margin-right: 13px;
 }
 #temperature {
-  margin-right: 16px;
+	margin-right: 16px;
 }
 
 
 #clock {
-  color: @text;
-  border-radius: 7px 7px;
-  background-color: @base;
-  border:3px solid @rosewater;
-  padding: 0px 10px;
-  margin: 10px 10px;
-  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.4);
+	color: @text;
+	border-radius: 7px 7px;
+	background-color: @base;
+	border:3px solid @rosewater;
+	padding: 0px 10px;
+	margin: 10px 10px;
+	box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.4);
 }
 #clock:hover {
 }
 
 
 #tray {
-  color: @text;
-  margin: 13px;
+	color: @text;
+	margin: 13px;
 }
 
 
 #status {
-  background-color: @base;
-  color: @text;
-  border-radius: 7px 7px;
-  border:3px solid @rosewater;
-  margin: 10px 10px 10px 0px;
-  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.4);
+	background-color: @base;
+	color: @text;
+	border-radius: 7px 7px;
+	border:3px solid @rosewater;
+	margin: 10px 10px 10px 0px;
+	box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.4);
 }
 #status * {
-  padding: 0px 10px;
+	padding: 0px 10px;
 }
 #status *:hover {
 }
 
 
 #idle_inhibitor {
-  padding-left: 15px;
-  padding-right: 21px;
-  color: @text;
+	padding-left: 15px;
+	padding-right: 21px;
+	color: @text;
 }
 #idle_inhibitor.activated {
-  color: @red;
+	color: @red;
 }
 
 
 #bluetooth {
-  color: @text;
-  padding-right: 17px;
+	color: @text;
+	padding-right: 17px;
 }
 #bluetooth.connected {
-  color: @blue
+	color: @blue
 }
 
 
 #network {
-  color: @sapphire;
-  padding-right: 22px;
+	color: @sapphire;
+	padding-right: 22px;
 }
 #network.disconnected {
-  color: @text;
+	color: @text;
 }
 
 
 #pulseaudio {
-  color: @peach;
-  padding-right: 12px;
+	color: @peach;
+	padding-right: 12px;
 }
 #pulseaudio.muted {
-  color: @text;
+	color: @text;
 }
 #pulseaudio.source-muted {
 
@@ -128,24 +128,24 @@ tooltip {
 
 
 #battery {
-  color: @text;
-  padding-right: 13px;
+	color: @text;
+	padding-right: 13px;
 }
 #battery.charging {
-  color: @green;
+	color: @green;
 }
 #battery.good:not(.charging) {
-  color: @green;
+	color: @green;
 }
 #battery.ok:not(.charging) {
 }
 #battery.warning:not(.charging) {
-  color: @red;
+	color: @red;
 }
 
 
 #custom-power {
-  color: @red;
-  padding-right: 15px;
+	color: @red;
+	padding-right: 15px;
 }
 
