@@ -8,11 +8,3 @@ function fish_greeting
 end
 
 alias ls='eza -a --color=always --group-directories-first --icons'  # all files and dirs
-alias 'update-grub'='sudo grub-mkconfig -o /boot/grub/grub.cfg'
-
-
-# overwrite greeting
-# potentially disabling fastfetch
-#function fish_greeting
-#    # smth smth
-#end
