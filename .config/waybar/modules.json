@@ -17,7 +17,7 @@
 	// CPU
 	"cpu": {
 		"format": "   {usage}%",
-		"on-click": "kitty --class=Status btop"
+		"on-click": "kitty --class=Monitor btop"
 	},
 
 
@@ -27,14 +27,14 @@
 		"hwmon-path": "/etc/sensors.d/cpu_temp",
 		"format": " {temperatureC}°C",
 		"tooltip": false,
-		"on-click": "kitty --class=Status btop"
+		"on-click": "kitty --class=Monitor btop"
 	},
 
 
 	// Memory
 	"memory": {
 		"format": "   {}%",
-		"on-click": "kitty --class=Status btop"
+		"on-click": "kitty --class=Monitor btop"
 	},
 
 
