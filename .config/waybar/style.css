@@ -24,7 +24,7 @@ tooltip {
 	background-color: @base;
 	border:3px solid @rosewater;
 	margin: 10px 10px;
-	/*box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.4);*/
+	box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.4);
 }
 #workspaces button {
 	color: @text;
@@ -60,7 +60,7 @@ tooltip {
 	border:3px solid @rosewater;
 	padding: 0px 10px;
 	margin: 10px 10px;
-	/*box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.4);*/
+	box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.4);
 }
 #clock:hover {
 }
@@ -78,7 +78,7 @@ tooltip {
 	border-radius: 7px 7px;
 	border:3px solid @rosewater;
 	margin: 10px 10px 10px 0px;
-	/*box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.4);*/
+	box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.4);
 }
 #status * {
 	padding: 0px 10px;
