@@ -1,25 +1,17 @@
 {
-	// General Settings
-	// "layer": "top",
-	"spacing": 0,
-
-	// Load Modules
 	"include": [
 		"~/.config/waybar/modules.json",
 	],
 
-	// Modules Left
 	"modules-left": [
 		"hyprland/workspaces",
 		"group/hardware",
 	],
 
-	// Modules Center
 	"modules-center": [
 		"clock"
 	],
 
-	// Modules Right
 	"modules-right": [
 		"tray",
 		// "custom/settings",
