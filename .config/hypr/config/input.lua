@@ -9,7 +9,7 @@ hl.config({
             scroll_factor           = 0.5,
             middle_button_emulation = true,
             clickfinger_behavior    = true,
-            ["tap-to-click"]        = true,
+            tap_to_click            = true,
         },
         numlock_by_default = true,
         -- kb_options = "altwin:swap_alt_win, caps:swapescape",
@@ -17,8 +17,6 @@ hl.config({
 
     cursor = {
         no_warps        = false,
-        -- inactive_timeout    = 30,
-        -- no_hardware_cursors = 2,
         default_monitor = "DP-1",
     },
 

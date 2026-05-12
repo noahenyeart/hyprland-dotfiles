@@ -2,16 +2,16 @@
 -- ┃                    Hyprland Configuration                    ┃
 -- ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
-local hl = require("hyprland")
 
-hl.require("~/.config/hypr/config/animations.lua")
-hl.require("~/.config/hypr/config/autostart.lua")
-hl.require("~/.config/hypr/config/colors.lua")
-hl.require("~/.config/hypr/config/decorations.lua")
-hl.require("~/.config/hypr/config/defaults.lua")
-hl.require("~/.config/hypr/config/environment.lua")
-hl.require("~/.config/hypr/config/gestures.lua")
-hl.require("~/.config/hypr/config/input.lua")
-hl.require("~/.config/hypr/config/monitor.lua")
-hl.require("~/.config/hypr/config/variables.lua")
-hl.require("~/.config/hypr/config/windowrules.lua")
+require("config.animations")
+require("config.autostart")
+require("config.colors")
+require("config.decorations")
+require("config.defaults")
+require("config.environment")
+require("config.gestures")
+require("config.input")
+require("config.keybinds")
+require("config.monitor")
+require("config.variables")
+require("config.windowrules")

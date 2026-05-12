@@ -2,7 +2,7 @@
 -- ┃                      Default Variables                      ┃
 -- ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
--- App defaults (previously $var = ... in defaults.conf)
+
 local mainMod     = "SUPER"
 local launcher    = "albert toggle"
 local filemanager = "nautilus --new-window"

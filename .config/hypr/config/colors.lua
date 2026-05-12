@@ -30,3 +30,5 @@ local colors = {
     mantle    = "rgb(181825)",
     crust     = "rgb(11111b)",
 }
+
+return colors
