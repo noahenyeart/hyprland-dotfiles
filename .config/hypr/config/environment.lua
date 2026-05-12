@@ -20,9 +20,9 @@ hl.env("QT_QPA_PLATFORMTHEME", "qt5ct")
 hl.env("QT_WAYLAND_DISABLE_WINDOWDECORATION", "1")
 
 -- Cursor
---hl.env("HYPRCURSOR_SIZE", "24")
---hl.env("XCURSOR_SIZE", "24")
---hl.env("QT_CURSOR_SIZE", "24")
+-- hl.env("HYPRCURSOR_SIZE", "24")
+-- hl.env("XCURSOR_SIZE", "24")
+-- hl.env("QT_CURSOR_SIZE", "24")
 
 -- GPU Management
 -- hl.env("LIBVA_DRIVER_NAME",          "iHD")

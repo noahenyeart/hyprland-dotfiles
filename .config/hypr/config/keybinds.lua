@@ -2,14 +2,14 @@
 -- ┃                          Keybinds                           ┃
 -- ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
-local mainMod = "SUPER"
-local launcher = "albert toggle"
+local mainMod     = "SUPER"
+local launcher    = "albert toggle"
 local filemanager = "nautilus --new-window"
-local app_drawer = "nwg-drawer"
-local terminal = "kitty"
-local browser = "/opt/zen-browser-bin/zen-bin"
-local capturing = "hyprshot -m region"
-local editor = "gnome-text-editor"
+local app_drawer  = "nwg-drawer"
+local terminal    = "kitty"
+local browser     = "/opt/zen-browser-bin/zen-bin"
+local capturing   = "hyprshot -m region"
+local editor      = "gnome-text-editor"
 
 -- Launch Applications
 hl.bind(mainMod .. " + space", hl.dsp.exec_cmd(launcher))

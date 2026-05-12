@@ -6,8 +6,8 @@ local colors = require("config.colors")
 
 hl.config({
     general = {
-        gaps_in     = 5,
-        gaps_out    = {
+        gaps_in  = 5,
+        gaps_out = {
             top    = 0,
             right  = 10,
             bottom = 10,
@@ -56,6 +56,6 @@ hl.config({
 
 
     xwayland = {
-        force_zero_scaling = true, -- Unscale XWayland
+        force_zero_scaling = true,
     },
 })
