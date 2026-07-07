@@ -16,11 +16,17 @@ hl.env("ELECTRON_OZONE_PLATFORM_HINT", "auto")
 
 -- QT
 hl.env("QT_QPA_PLATFORM", "wayland")
-hl.env("QT_QPA_PLATFORMTHEME", "qt5ct")
+hl.env("QT_QPA_PLATFORMTHEME", "qt6ct")
 hl.env("QT_WAYLAND_DISABLE_WINDOWDECORATION", "1")
 
+-- XDG
+hl.env("XDG_CURRENT_DESKTOP", "Hyprland")
+hl.env("XDG_SESSION_TYPE", "wayland")
+hl.env("XDG_SESSION_DESKTOP", "Hyprland")
+
 -- Cursor
--- hl.env("HYPRCURSOR_SIZE", "24")
+hl.env("HYPRCURSOR_SIZE", "24")
+hl.env("HYPRCURSOR_THEME", "Bibata-Modern-Classic")
 -- hl.env("XCURSOR_SIZE", "24")
 -- hl.env("QT_CURSOR_SIZE", "24")
 

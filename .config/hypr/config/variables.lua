@@ -30,17 +30,17 @@ hl.config({
 
 
     misc = {
-        font_family            = "Fira Sans",
-        splash_font_family     = "Fira Sans",
-        disable_hyprland_logo  = true,
-        ["col.splash"]         = colors.text,
-        background_color       = colors.base,
-        enable_swallow         = true,
-        swallow_regex          = "^(firefox|nautilus.)$",
-        focus_on_activate      = true,
-        vrr                    = 1,
-        middle_click_paste     = true,
-        animate_manual_resizes = true,
+        font_family                = "Fira Sans",
+        disable_hyprland_logo      = true,
+        disable_splash_rendering   = true,
+        background_color           = colors.base,
+        enable_swallow             = true,
+        swallow_regex              = "^(firefox|zen)$",
+        focus_on_activate          = true,
+        vrr                        = 1,
+        middle_click_paste         = true,
+        animate_manual_resizes     = true,
+        initial_workspace_tracking = 0,
     },
 
 

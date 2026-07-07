@@ -1,4 +1,4 @@
 #!/bin/bash
 
 waybar &
-hyprctl keyword general:gaps_out 0, 10, 10, 10
+hyprctl eval 'hl.config({ general = { gaps_out = { top = 0, right = 10, bottom = 10, left = 10 } } })'

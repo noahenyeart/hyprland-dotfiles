@@ -6,7 +6,8 @@
 hl.window_rule({
     name      = "btop",
     float     = true,
-    size      = "800 500",
+    pin       = true,
+    size      = "770 540",
     move      = "(13) (53)",
     animation = "slide left",
     -- stay_focused = true,
@@ -16,6 +17,7 @@ hl.window_rule({
 hl.window_rule({
     name         = "khal",
     float        = true,
+    pin          = true,
     size         = "480 368",
     move         = "(monitor_w*0.5-240) (53)",
     animation    = "slide top",
@@ -26,6 +28,7 @@ hl.window_rule({
 hl.window_rule({
     name      = "status",
     float     = true,
+    pin       = true,
     size      = "720 720",
     move      = "(monitor_w-733) (53)",
     animation = "slide right",
@@ -33,20 +36,11 @@ hl.window_rule({
     match     = { class = "^(org.pulseaudio.pavucontrol|com.saivert.pwvucontrol|Gazelle|bluetui)$" },
 })
 
--- PIP
-hl.window_rule({
-    name  = "pip",
-    float = true,
-    -- size = "720 480",
-    move  = "(monitor_w-window_w-13) (monitor_h-window_h-13)",
-    pin   = true,
-    match = { title = "^(Picture-in-Picture)$" },
-})
-
 -- Popups
 hl.window_rule({
     name         = "albert",
     stay_focused = true,
+    pin          = true,
     match        = { title = "^(Albert)$" },
 })
 
@@ -92,6 +86,16 @@ hl.window_rule({
         class = "^()$",
         title = "^(Steam - Self Updater|Sign in to Steam)$",
     },
+})
+
+-- PIP
+hl.window_rule({
+    name  = "pip",
+    float = true,
+    -- size = "720 480",
+    move  = "(monitor_w-window_w-13) (monitor_h-window_h-13)",
+    pin   = true,
+    match = { title = "^(Picture-in-Picture)$" },
 })
 
 -- Apps

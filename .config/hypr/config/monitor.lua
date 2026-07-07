@@ -3,49 +3,65 @@
 -- ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
 hl.monitor({
-    output = "",
-    mode = "preferred",
+    output   = "",
+    mode     = "preferred",
     position = "auto",
-    scale = "1.25",
+    scale    = "1.25",
 })
 
 hl.monitor({
-    output = "eDP-1",
-    mode = "2560x1600@240.00",
+    output   = "eDP-1",
+    mode     = "2560x1600@240.00",
     position = "0x0",
-    scale = "1.25",
+    scale    = "1.25",
     bitdepth = 10,
 })
 
 hl.monitor({
-    output = "eDP-2",
-    mode = "2560x1600@240.00",
+    output   = "eDP-2",
+    mode     = "2560x1600@240.00",
     position = "0x0",
-    scale = "1.25",
+    scale    = "1.25",
     bitdepth = 10,
 })
 
 hl.monitor({
-    output = "DP-1",
-    mode = "3840x2160@144.00",
+    output   = "DP-1",
+    mode     = "3840x2160@144.00",
     position = "2048x-680",
-    scale = "1.25",
+    scale    = "1.25",
     bitdepth = 10,
 })
 
 hl.monitor({
-    output = "DP-2",
-    mode = "3840x2160@144.00",
+    output   = "DP-2",
+    mode     = "3840x2160@144.00",
     position = "2048x-680",
-    scale = "1.25",
+    scale    = "1.25",
     bitdepth = 10,
 })
 
 hl.monitor({
-    output = "HDMI-A-1",
-    mode = "3840x2160@144.00",
+    output   = "HDMI-A-1",
+    mode     = "3840x2160@144.00",
     position = "2048x-680",
-    scale = "1.25",
+    scale    = "1.25",
+    bitdepth = 10,
+})
+
+hl.monitor({
+    output   = "HDMI-A-2",
+    mode     = "3840x2160@144.00",
+    position = "2048x-680",
+    scale    = "1.25",
+    bitdepth = 10,
+})
+
+hl.monitor({
+    output   = "HDMI-A-3",
+    mode     = "3840x2160@144.00",
+    position = "2048x-680",
+    scale    = "1.25",
     bitdepth = 10,
 })
 
