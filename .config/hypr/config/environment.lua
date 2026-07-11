@@ -27,7 +27,7 @@ hl.env("XDG_SESSION_DESKTOP", "Hyprland")
 -- Cursor
 hl.env("HYPRCURSOR_SIZE", "24")
 hl.env("HYPRCURSOR_THEME", "Bibata-Modern-Classic")
--- hl.env("XCURSOR_SIZE", "24")
+hl.env("XCURSOR_SIZE", "24")
 -- hl.env("QT_CURSOR_SIZE", "24")
 
 -- GPU Management
