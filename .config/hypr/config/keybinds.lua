@@ -20,6 +20,7 @@ hl.bind(mainMod .. " + F",      hl.dsp.exec_cmd(filemanager))
 hl.bind(mainMod .. " + T",      hl.dsp.exec_cmd(editor))
 hl.bind(mainMod .. " + E",      hl.dsp.exec_cmd("easyeffects"))
 hl.bind(mainMod .. " + Y",      hl.dsp.exec_cmd("kitty yazi"))
+hl.bind(mainMod .. " + Z",      hl.dsp.exec_cmd("zeditor"))
 -- hl.bind(mainMod .. " + L",   hl.dsp.exec_cmd("localsend"))
 
 -- Actions

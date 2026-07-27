@@ -43,6 +43,9 @@ hl.config({
         initial_workspace_tracking = 0,
     },
 
+    quirks = {
+        prefer_hdr = 2,
+    },
 
     dwindle = {
         special_scale_factor = 0.9,

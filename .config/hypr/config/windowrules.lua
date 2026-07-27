@@ -53,6 +53,7 @@ hl.window_rule({
 hl.window_rule({
     name  = "file_pickers",
     float = true,
+    center = true,
     size  = "1080 720",
     match = {
         class = "^()$",
@@ -63,6 +64,8 @@ hl.window_rule({
 hl.window_rule({
     name  = "xdg_popups",
     float = true,
+    center = true,
+    size = "1080 720",
     match = { class = "^(xdg-desktop-portal-gtk|xdg-desktop-portal-kde|xdg-desktop-portal-hyprland)(.*)$" },
 })
 
@@ -116,6 +119,12 @@ hl.window_rule({
     name           = "libreoffice-writer",
     suppress_event = "fullscreen maximize",
     match          = { class = "^(libreoffice-writer)(.*)$" },
+})
+
+hl.window_rule({
+    name            = "spotify",
+    scroll_touchpad = 0.25,
+    match           = { class = "^(spotify)$" },
 })
 
 -- Opacity

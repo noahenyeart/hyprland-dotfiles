@@ -6,17 +6,17 @@ hl.config({
     decoration = {
         rounding    = 10,
         dim_special = 0,
-        -- active_opacity   = 0.9,
-        -- inactive_opacity = 0.8,
-        -- fullscreen_opacity = 1,
+        active_opacity   = 0.9,
+        inactive_opacity = 0.8,
+        fullscreen_opacity = 1,
 
         blur = {
-            enabled = false,
-            -- size              = 6,
-            -- passes            = 2,
-            -- contrast          = 1.2, -- default 0.8916
-            xray    = true,
-            special = true,
+            enabled = true,
+            size              = 6,
+            passes            = 2,
+            contrast          = 1.2, -- default 0.8916
+            xray    = false,
+            special = false,
             popups  = true,
         },
 
